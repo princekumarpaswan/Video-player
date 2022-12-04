@@ -4,7 +4,7 @@
 
 By Prince Kr Paswan
 
-## [Link to the Video-player](https://theme-changer-p.netlify.app/)
+## [Link to the Video-player](https://video-player-player.netlify.app/)
 
 
 ![Completed Website](./Screenshot%20from%202022-12-04%2018-45-16.png)
