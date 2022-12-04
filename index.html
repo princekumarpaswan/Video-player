@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video player</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header>
+        <div>     
+               <h1 class="title">Video Player</h1>
+        </div>
+    </header>
+
+
+
+    <section>
+
+        <div class="main-grid">
+
+        <div class="gridBig" id="non">
+            <video src="./v1.mp4" controls class="videomain" id="vM1">The Bee</video>
+            <h1 class="mainH1">Video title: <span class="title-video">The Bee</span></h1>
+
+            <div class="input">
+                <h2>Custom video Link</h2>
+                <input type="text" id="customLink" placeholder="Enter your link" >
+                <button class="btn" id="btn" onclick="playBtn('btn')">Play</button>
+            </div>
+        </div>
+
+
+
+        <div class="list">
+            <video src="./v1.mp4"  class="video" id="v1" onclick="playVideo('v1')" ></video><br>
+            <h3 class="h3" id="h31">The Bee</h3>
+            <video src="./v2.mp4"  class="video" id="v2" onclick="playVideo('v2')"></video><br>
+            <h3 class="h3" id="h32">The Bird</h3>
+            <video src="./v3.mp4"  class="video" id="v3" onclick="playVideo('v3')"></video><br>
+            <h3 class="h3" id="h33">Dog's Ride</h3>
+            <video src="./v4.mp4"  class="video" id="v4" onclick="playVideo('v4')"></video><br>
+            <h3 class="h3" id="h34">The Dog</h3>
+            <video src="./v5.mp4"  class="video" id="v5" onclick="playVideo('v5')"></video><br>
+            <h3 class="h3" id="h35">The River</h3>
+            <video src="./v6.mp4"  class="video" id="v6" onclick="playVideo('v6')"></video><br>
+            <h3 class="h3" id="h36">The view</h3>
+            <video src="./v7.mp4"  class="video" id="v7" onclick="playVideo('v7')"></video><br>
+            <h3 class="h3" id="h37">The Flower</h3>
+            <video src="./v8.mp4"  class="video" id="v8" onclick="playVideo('v8')"></video><br>
+            <h3 class="h3" id="h38">The sqral</h3>
+            <video src="./v9.mp4"  class="video" id="v9" onclick="playVideo('v9')"></video><br>
+            <h3 class="h3" id="h39">Yellow Flower</h3>
+        </div>
+
+
+    </div>
+
+    </section>
+
+
+
+<script src="./script.js"></script>
+
+
+
+    
+</body>
+</html>
